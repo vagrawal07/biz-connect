@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:5050/api";
+const API = "https://biz-connect-ebcg.onrender.com/api";
 
 export const getBusinessById = (id, token) => {
   return axios.get(`${API}/business/${id}`, {

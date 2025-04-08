@@ -8,7 +8,8 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "http://localhost:5050", // or whatever your backend runs on
+        // target: "http://localhost:5050", // or whatever your backend runs on
+        target: "https://biz-connect-ebcg.onrender.com",
         changeOrigin: true,
         secure: false,
       },

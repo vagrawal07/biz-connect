@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:5050/api/auth";
+const API = "https://biz-connect-ebcg.onrender.com/api/auth";
 
 const handleAuthResponse = (res) => {
   const { token, user } = res.data;
