@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
+import axios from "../../utils/axios";
 import { useSelector } from "react-redux";
 import { useParams, useNavigate } from "react-router-dom";
 import NewConversationModal from "./NewConversationModal";

@@ -1,4 +1,4 @@
-import axios from "axios";
+import axios from "../utils/axios";
 
 const API = "https://biz-connect-ebcg.onrender.com/api/auth";
 

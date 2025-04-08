@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import axios from "axios";
+import axios from "../../../utils/axios";
 import { useSelector } from "react-redux";
 
 import FinancialCharts from "./FinancialChart";
