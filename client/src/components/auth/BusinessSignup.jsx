@@ -45,7 +45,7 @@ const Signup = () => {
             <button
               type="button"
               onClick={toggleRole}
-              className="flex items-center gap-2 text-sm text-white hover:underline"
+              className="flex items-center p-2 rounded  bg-black gap-2 text-md text-white hover:underline"
             >
               {isBusiness ? <User size={16} /> : <Briefcase size={16} />} 
               Switch to {isBusiness ? "User" : "Business"} Signup
